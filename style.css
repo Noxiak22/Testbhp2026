@@ -1,0 +1,35 @@
+body
+{
+background-color: #eef2f7;
+color: #1f2937;
+font-family: Arial, sans-serif;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+flex-direction: column;
+}
+
+fieldset {
+    border: 2px solid #cbd5e1;
+    background-color: #ffffff;
+    font-size: 24px;
+    font-family: times new roman, sans-serif;
+   margin-top: 20%;
+   
+    flex-direction: column;
+}
+
+fieldset label {
+    display: block;
+}
+
+fieldset[hidden] {
+    display: none;
+}
+ul
+{
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1 Strona do robienia testu wiedzy</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> <h1>Test wiedzy o BHP</h1></header>
+<button type="button" id="rozpocznij-test">Rozpocznij test</button>
+<main id="quiz" hidden>
+<fieldset class="pyt1" data-correct="a">
+<legend>Co należy zrobić w pierwszej kolejności w przypadku zauważenia pożaru w miejscu pracy?</legend>
+<label><input type="radio" name="pyt1" value="a">a) Zaalarmować osoby w pobliżu, powiadomić służby i rozpocząć ewakuację zgodnie z procedurą.</label> <!-- prawidłowa odpowiedź -->
+<label><input type="radio" name="pyt1" value="b">b) Spróbować samodzielnie ugasić pożar przy użyciu dostępnych środków gaśniczych.</label>
+<label><input type="radio" name="pyt1" value="c">c) Powiadomić przełożonego i kontynuować pracę, jeśli pożar nie jest duży.</label>
+<label><input type="radio" name="pyt1" value="d">d) Zignorować sytuację, jeśli pożar wydaje się być mały i niegroźny.</label>
+</fieldset>
+
+<fieldset class="pyt2" data-correct="b" hidden>
+<legend>Kto ponosi bezpośrednią odpowiedzialność za stan bezpieczeństwa i higieny pracy w zakładzie pracy?</legend>
+<label><input type="radio" name="pyt2" value="a">a)pracownik</label>
+<label><input type="radio" name="pyt2" value="b">b)pracodawca</label> <!-- prawidłowa odpowiedź -->
+<label><input type="radio" name="pyt2" value="c">c)przełożony</label>
+<label><input type="radio" name="pyt2" value="d">d)ochroniarz</label>
+</fieldset>
+
+<fieldset class="pyt3" data-correct="b" hidden>
+<legend>Czy pracownik może przystąpić do pracy bez aktualnych badań lekarskich (wstępnych) oraz bez przebytego szkolenia z dziedziny BHP (wstępnego)?</legend>
+<label><input type="radio" name="pyt3" value="a">a) Tak</label>
+<label><input type="radio" name="pyt3" value="b">b) Nie</label> <!-- prawidłowa odpowiedź -->
+<label><input type="radio" name="pyt3" value="c">c) Tylko w wyjątkowych przypadkach</label>
+<label><input type="radio" name="pyt3" value="d">d) Zależy od rodzaju pracy</label>
+</fieldset>
+
+<fieldset class="pyt4" data-correct="a" hidden>
+<legend>Co oznacza znak bezpieczeństwa przedstawiający biały piktogram w zielonym kwadratowym lub prostokątnym tle?</legend>
+<label><input type="radio" name="pyt4" value="a">a) Wyjście ewakuacyjne</label> <!-- prawidłowa odpowiedź -->
+<label><input type="radio" name="pyt4" value="b">b) Zakaz biegania w miejscu pracy</label>
+<label><input type="radio" name="pyt4" value="c">c) Klatka schodowa</label>
+<label><input type="radio" name="pyt4" value="d">d) Przestrzeń ochronna</label>
+</fieldset>
+
+<fieldset class="pyt5" data-correct="b" hidden>
+<legend>Jaki jest główny cel stosowania środków ochrony indywidualnej w miejscu pracy?</legend>
+<label><input type="radio" name="pyt5" value="a">a) Zwiększenie wydajności i tempa wykonywanej pracy</label>
+<label><input type="radio" name="pyt5" value="b">b) Ochrona pracownika przed działaniem niebezpiecznych i szkodliwych czynników występujących w środowisku pracy</label><!--prawidłowa odpowiedź -->
+<label><input type="radio" name="pyt5" value="c">c) Obniżenie kosztów związanych z ubezpieczeniami pracowniczymi</label>
+<label><input type="radio" name="pyt5" value="d">d) Estetyczny wygląd i ujednolicenie wizerunku pracowników na stanowisku</label>
+</fieldset>
+
+<fieldset class="pyt6" data-correct="a,c" hidden>
+<legend>Które z poniższych obowiązków należą do pracownika w dziedzinie BHP? (Wybierz dwie prawidłowe odpowiedzi)</legend>
+<label><input type="checkbox" name="pyt6" value="a">a) Przestrzeganie przepisów i zasad bezpieczeństwa i higieny pracy oraz regulaminu pracy.</label><!--prawidłowa odpowiedź -->
+<label><input type="checkbox" name="pyt6" value="b">b) samodzielne finansowanie i kupowanie środków ochrony indywidualnej</label>
+<label><input type="checkbox" name="pyt6" value="c">c) Poddawanie się badaniom lekarskim (wstępnym, okresowym i kontrolnym) oraz stosowanie się do wskazań lekarskich</label><!--prawidłowa odpowiedź -->
+<label><input type="checkbox" name="pyt6" value="d">d)Przeprowadzanie szkoleń wstępnych  z dziedziny BHP dla nowo zatrudnionych współpracowników w dziale </label>
+</fieldset>
+
+<fieldset class="pyt7" data-correct="b" hidden>
+<legend>Co należy zrobić po zauważeniu uszkodzenia narzędzia lub urządzenia?</legend>
+<label><input type="radio" name="pyt7" value="a">a) Użyć go ostrożniej niż zwykle.</label>
+<label><input type="radio" name="pyt7" value="b">b) Przerwać pracę tym urządzeniem i zgłosić usterkę przełożonemu.</label>
+<label><input type="radio" name="pyt7" value="c">c) Naprawić je samodzielnie, niezależnie od posiadanych uprawnień.</label>
+<label><input type="radio" name="pyt7" value="d">d) Odłożyć je na miejsce i nie informować nikogo.</label>
+</fieldset>
+
+<fieldset class="pyt8" data-correct="a" hidden>
+<legend>Jaki numer należy wybrać, aby wezwać służby ratunkowe w nagłym zagrożeniu?</legend>
+<label><input type="radio" name="pyt8" value="a">a) 112</label>
+<label><input type="radio" name="pyt8" value="b">b) 911</label>
+<label><input type="radio" name="pyt8" value="c">c) 9977</label>
+<label><input type="radio" name="pyt8" value="d">d) 9999</label>
+</fieldset>
+
+<fieldset class="pyt9" data-correct="b" hidden>
+<legend>Kiedy można użyć gaśnicy do gaszenia pożaru?</legend>
+<label><input type="radio" name="pyt9" value="a">a) Zawsze, nawet jeśli ogień odcina drogę ucieczki.</label>
+<label><input type="radio" name="pyt9" value="b">b) Gdy można zrobić to bezpiecznie, używając gaśnicy odpowiedniej do rodzaju pożaru.</label>
+<label><input type="radio" name="pyt9" value="c">c) Tylko po ugaszeniu ognia wodą.</label>
+<label><input type="radio" name="pyt9" value="d">d) Zamiast powiadomić innych i służby.</label>
+</fieldset>
+
+<fieldset class="pyt10" data-correct="c" hidden>
+<legend>Jak należy zachować się podczas ewakuacji z budynku?</legend>
+<label><input type="radio" name="pyt10" value="a">a) Wrócić po swoje rzeczy.</label>
+<label><input type="radio" name="pyt10" value="b">b) Skorzystać z windy, aby szybciej opuścić budynek.</label>
+<label><input type="radio" name="pyt10" value="c">c) Korzystać z oznakowanych dróg ewakuacyjnych i nie używać windy.</label>
+<label><input type="radio" name="pyt10" value="d">d) Zostać w miejscu pracy do czasu przybycia przełożonego.</label>
+</fieldset>
+
+<fieldset class="pyt11" data-correct="d" hidden>
+<legend>Jak należy postępować z drogami i wyjściami ewakuacyjnymi?</legend>
+<label><input type="radio" name="pyt11" value="a">a) Można je zastawić na krótki czas.</label>
+<label><input type="radio" name="pyt11" value="b">b) Można składować tam lekkie przedmioty.</label>
+<label><input type="radio" name="pyt11" value="c">c) Należy zamykać je na klucz w czasie pracy.</label>
+<label><input type="radio" name="pyt11" value="d">d) Należy utrzymywać je drożne i łatwo dostępne.</label>
+</fieldset>
+
+<fieldset class="pyt12" data-correct="a" hidden>
+<legend>Jak bezpiecznie podnieść ciężki przedmiot?</legend>
+<label><input type="radio" name="pyt12" value="a">a) Zgiąć nogi, trzymać przedmiot blisko ciała i unikać skręcania tułowia.</label>
+<label><input type="radio" name="pyt12" value="b">b) Podnieść go na wyprostowanych nogach, pochylając plecy.</label>
+<label><input type="radio" name="pyt12" value="c">c) Trzymać przedmiot jak najdalej od ciała.</label>
+<label><input type="radio" name="pyt12" value="d">d) Wykonać gwałtowny ruch, aby skrócić czas podnoszenia.</label>
+</fieldset>
+
+<fieldset class="pyt13" data-correct="c" hidden>
+<legend>Jak ustawić monitor podczas pracy przy komputerze?</legend>
+<label><input type="radio" name="pyt13" value="a">a) Za plecami, aby nie odbijało się w nim światło.</label>
+<label><input type="radio" name="pyt13" value="b">b) Bardzo wysoko, tak aby stale unosić głowę.</label>
+<label><input type="radio" name="pyt13" value="c">c) Przed sobą, w wygodnej odległości i na wysokości sprzyjającej neutralnej pozycji głowy.</label>
+<label><input type="radio" name="pyt13" value="d">d) Dowolnie, ponieważ jego ustawienie nie ma znaczenia.</label>
+</fieldset>
+
+<fieldset class="pyt14" data-correct="b" hidden>
+<legend>Co zrobić, gdy praca odbywa się w miejscu o dużym hałasie?</legend>
+<label><input type="radio" name="pyt14" value="a">a) Zwiększyć głośność słuchawek.</label>
+<label><input type="radio" name="pyt14" value="b">b) Stosować wymagane ochronniki słuchu i przestrzegać zasad obowiązujących w tym miejscu.</label>
+<label><input type="radio" name="pyt14" value="c">c) Zignorować hałas, jeśli występuje tylko przez część dnia.</label>
+<label><input type="radio" name="pyt14" value="d">d) Zatkać uszy przypadkowymi materiałami.</label>
+</fieldset>
+
+<fieldset class="pyt15" data-correct="d" hidden>
+<legend>Co należy zrobić po zauważeniu zagrożenia w miejscu pracy?</legend>
+<label><input type="radio" name="pyt15" value="a">a) Poczekać, aż ktoś inny je zauważy.</label>
+<label><input type="radio" name="pyt15" value="b">b) Usunąć zabezpieczenia, by sprawdzić zagrożenie.</label>
+<label><input type="radio" name="pyt15" value="c">c) Kontynuować pracę, jeśli zagrożenie nie dotyczy bezpośrednio nas.</label>
+<label><input type="radio" name="pyt15" value="d">d) Ostrzec osoby narażone i zgłosić zagrożenie zgodnie z przyjętą procedurą.</label>
+</fieldset>
+
+<fieldset class="pyt16" data-correct="a" hidden>
+<legend>Jak postąpić, gdy osłona maszyny utrudnia wykonywanie pracy?</legend>
+<label><input type="radio" name="pyt16" value="a">a) Nie zdejmować ani nie obchodzić osłony; zgłosić problem przełożonemu.</label>
+<label><input type="radio" name="pyt16" value="b">b) Zdjąć osłonę na czas pracy.</label>
+<label><input type="radio" name="pyt16" value="c">c) Zablokować wyłącznik bezpieczeństwa.</label>
+<label><input type="radio" name="pyt16" value="d">d) Poprosić współpracownika, by trzymał osłonę.</label>
+</fieldset>
+
+<fieldset class="pyt17" data-correct="b" hidden>
+<legend>Co zrobić po rozlaniu płynu na podłogę?</legend>
+<label><input type="radio" name="pyt17" value="a">a) Przykryć rozlany płyn kartonem i odejść.</label>
+<label><input type="radio" name="pyt17" value="b">b) Zabezpieczyć miejsce, jeśli to możliwe, i zgłosić lub usunąć zagrożenie zgodnie z procedurą.</label>
+<label><input type="radio" name="pyt17" value="c">c) Zostawić płyn do wyschnięcia.</label>
+<label><input type="radio" name="pyt17" value="d">d) Ostrzec tylko osoby z najbliższego zespołu.</label>
+</fieldset>
+
+<fieldset class="pyt18" data-correct="c" hidden>
+<legend>Co sprawdzić przed rozpoczęciem pracy z niebezpieczną substancją chemiczną?</legend>
+<label><input type="radio" name="pyt18" value="a">a) Wyłącznie jej kolor i zapach.</label>
+<label><input type="radio" name="pyt18" value="b">b) Czy opakowanie można otworzyć bez narzędzi.</label>
+<label><input type="radio" name="pyt18" value="c">c) Oznakowanie oraz instrukcje bezpiecznego stosowania, w tym kartę charakterystyki.</label>
+<label><input type="radio" name="pyt18" value="d">d) Czy inni pracownicy używają jej bez ochrony.</label>
+</fieldset>
+
+<fieldset class="pyt19" data-correct="d" hidden>
+<legend>Jak postąpić, gdy ktoś został porażony prądem?</legend>
+<label><input type="radio" name="pyt19" value="a">a) Natychmiast chwycić poszkodowanego gołymi rękami.</label>
+<label><input type="radio" name="pyt19" value="b">b) Polać miejsce wypadku wodą.</label>
+<label><input type="radio" name="pyt19" value="c">c) Przenieść poszkodowanego, nie sprawdzając źródła prądu.</label>
+<label><input type="radio" name="pyt19" value="d">d) Nie dotykać poszkodowanego, dopóki źródło prądu nie zostanie bezpiecznie odłączone; wezwać pomoc.</label>
+</fieldset>
+
+<fieldset class="pyt20" data-correct="a" hidden>
+<legend>Co zrobić, gdy osoba jest nieprzytomna i nie reaguje?</legend>
+<label><input type="radio" name="pyt20" value="a">a) Ocenić bezpieczeństwo miejsca, wezwać pomoc i sprawdzić oddech, postępując zgodnie z zasadami pierwszej pomocy.</label>
+<label><input type="radio" name="pyt20" value="b">b) Podać jej coś do picia.</label>
+<label><input type="radio" name="pyt20" value="c">c) Pozostawić ją samą, aż odzyska przytomność.</label>
+<label><input type="radio" name="pyt20" value="d">d) Przenieść ją bez potrzeby w inne miejsce.</label>
+</fieldset>
+
+<fieldset class="pyt21" data-correct="b" hidden>
+<legend>Jak należy korzystać z apteczki w miejscu pracy?</legend>
+<label><input type="radio" name="pyt21" value="a">a) Używać jej do przechowywania prywatnych leków.</label>
+<label><input type="radio" name="pyt21" value="b">b) Korzystać z niej zgodnie z przeznaczeniem i zgłaszać braki lub zużyte materiały.</label>
+<label><input type="radio" name="pyt21" value="c">c) Zabierać materiały do domu na zapas.</label>
+<label><input type="radio" name="pyt21" value="d">d) Używać jej wyłącznie do przechowywania narzędzi.</label>
+</fieldset>
+
+<fieldset class="pyt22" data-correct="c" hidden>
+<legend>Jak należy postępować ze środkami ochrony indywidualnej?</legend>
+<label><input type="radio" name="pyt22" value="a">a) Używać ich tylko wtedy, gdy w pobliżu jest przełożony.</label>
+<label><input type="radio" name="pyt22" value="b">b) Dzielić się nimi bez sprawdzania, czy pasują i są sprawne.</label>
+<label><input type="radio" name="pyt22" value="c">c) Stosować zgodnie z przeznaczeniem i zgłaszać ich uszkodzenie lub zużycie.</label>
+<label><input type="radio" name="pyt22" value="d">d) Modyfikować je według własnego uznania.</label>
+</fieldset>
+
+<fieldset class="pyt23" data-correct="d" hidden>
+<legend>Jak utrzymywać porządek na stanowisku pracy?</legend>
+<label><input type="radio" name="pyt23" value="a">a) Odkładać narzędzia na podłogę po użyciu.</label>
+<label><input type="radio" name="pyt23" value="b">b) Zostawiać odpady w przejściach do końca zmiany.</label>
+<label><input type="radio" name="pyt23" value="c">c) Przechowywać przedmioty na maszynach.</label>
+<label><input type="radio" name="pyt23" value="d">d) Odkładać narzędzia i materiały w wyznaczone miejsca oraz usuwać odpady zgodnie z zasadami.</label>
+</fieldset>
+
+<fieldset class="pyt24" data-correct="a" hidden>
+<legend>Co zrobić, gdy przedmiot jest zbyt ciężki lub niewygodny do samodzielnego przeniesienia?</legend>
+<label><input type="radio" name="pyt24" value="a">a) Poprosić o pomoc lub użyć odpowiedniego sprzętu pomocniczego.</label>
+<label><input type="radio" name="pyt24" value="b">b) Przenieść go samodzielnie jak najszybciej.</label>
+<label><input type="radio" name="pyt24" value="c">c) Ciągnąć go po podłodze bez oceny ryzyka.</label>
+<label><input type="radio" name="pyt24" value="d">d) Podnieść go, skręcając tułów.</label>
+</fieldset>
+
+<fieldset class="pyt25" data-correct="b" hidden>
+<legend>Co sprawdzić przed użyciem drabiny?</legend>
+<label><input type="radio" name="pyt25" value="a">a) Czy można ustawić ją na niestabilnym podłożu.</label>
+<label><input type="radio" name="pyt25" value="b">b) Czy jest sprawna, stabilna i ustawiona na odpowiednim podłożu.</label>
+<label><input type="radio" name="pyt25" value="c">c) Czy można ją oprzeć o ruchomy element.</label>
+<label><input type="radio" name="pyt25" value="d">d) Czy ktoś może przytrzymywać ją zamiast prawidłowego ustawienia.</label>
+</fieldset>
+
+<fieldset class="pyt26" data-correct="c" hidden>
+<legend>Gdzie wolno palić w miejscu pracy?</legend>
+<label><input type="radio" name="pyt26" value="a">a) Przy wyjściu ewakuacyjnym.</label>
+<label><input type="radio" name="pyt26" value="b">b) W magazynie, jeśli nie ma tam innych osób.</label>
+<label><input type="radio" name="pyt26" value="c">c) Wyłącznie w miejscach do tego wyznaczonych, zgodnie z obowiązującymi zasadami.</label>
+<label><input type="radio" name="pyt26" value="d">d) W każdym miejscu podczas przerwy.</label>
+</fieldset>
+
+<fieldset class="pyt27" data-correct="d" hidden>
+<legend>Jak postępować z drzwiami przeciwpożarowymi?</legend>
+<label><input type="radio" name="pyt27" value="a">a) Podpierać je otwarte przedmiotem.</label>
+<label><input type="radio" name="pyt27" value="b">b) Blokować je, aby łatwiej wnosić materiały.</label>
+<label><input type="radio" name="pyt27" value="c">c) Zastawiać przestrzeń przy nich na czas dostawy.</label>
+<label><input type="radio" name="pyt27" value="d">d) Nie blokować ich i nie zastawiać; powinny działać zgodnie z przeznaczeniem.</label>
+</fieldset>
+
+<fieldset class="pyt28" data-correct="a" hidden>
+<legend>Co zrobić, gdy oświetlenie stanowiska pracy jest niewystarczające lub uszkodzone?</legend>
+<label><input type="radio" name="pyt28" value="a">a) Zgłosić problem i nie podejmować pracy w warunkach stwarzających zagrożenie.</label>
+<label><input type="radio" name="pyt28" value="b">b) Używać otwartego ognia jako dodatkowego oświetlenia.</label>
+<label><input type="radio" name="pyt28" value="c">c) Pracować dalej, niezależnie od rodzaju wykonywanej czynności.</label>
+<label><input type="radio" name="pyt28" value="d">d) Zasłonić uszkodzoną lampę materiałem.</label>
+</fieldset>
+
+<fieldset class="pyt29" data-correct="b" hidden>
+<legend>Kto może naprawiać urządzenie elektryczne w miejscu pracy?</legend>
+<label><input type="radio" name="pyt29" value="a">a) Każdy pracownik, jeśli naprawa wygląda na prostą.</label>
+<label><input type="radio" name="pyt29" value="b">b) Osoba uprawniona i wyznaczona do takich prac.</label>
+<label><input type="radio" name="pyt29" value="c">c) Każda osoba, która ma pod ręką narzędzia.</label>
+<label><input type="radio" name="pyt29" value="d">d) Osoba postronna, jeśli urządzenie jest odłączone.</label>
+</fieldset>
+
+<fieldset class="pyt30" data-correct="c" hidden>
+<legend>Jak należy pracować na wysokości, gdy istnieje ryzyko upadku?</legend>
+<label><input type="radio" name="pyt30" value="a">a) Wchodzić na dowolne podwyższenie bez sprawdzania jego stanu.</label>
+<label><input type="radio" name="pyt30" value="b">b) Pracować bez zabezpieczeń, jeśli zadanie potrwa krótko.</label>
+<label><input type="radio" name="pyt30" value="c">c) Stosować wymagane zabezpieczenia i używać odpowiedniego, sprawnego sprzętu.</label>
+<label><input type="radio" name="pyt30" value="d">d) Ustawiać skrzynki jedna na drugiej zamiast używać sprzętu do pracy na wysokości.</label>
+</fieldset>
+
+<fieldset class="pyt31" data-correct="d" hidden>
+<legend>Co zrobić z uszkodzoną odzieżą ochronną?</legend>
+<label><input type="radio" name="pyt31" value="a">a) Używać jej do końca zmiany bez zgłaszania problemu.</label>
+<label><input type="radio" name="pyt31" value="b">b) Naprawić ją dowolnym materiałem i nie informować przełożonego.</label>
+<label><input type="radio" name="pyt31" value="c">c) Pożyczyć odzież od innej osoby bez sprawdzenia jej dopasowania.</label>
+<label><input type="radio" name="pyt31" value="d">d) Zgłosić uszkodzenie i wymienić odzież przed pracą wymagającą ochrony.</label>
+</fieldset>
+
+<fieldset class="pyt32" data-correct="a" hidden>
+<legend>Co oznacza zielony znak bezpieczeństwa z białym piktogramem?</legend>
+<label><input type="radio" name="pyt32" value="a">a) Informację o bezpiecznym kierunku lub miejscu, na przykład wyjściu ewakuacyjnym.</label>
+<label><input type="radio" name="pyt32" value="b">b) Zakaz wstępu.</label>
+<label><input type="radio" name="pyt32" value="c">c) Nakaz używania ochrony słuchu.</label>
+<label><input type="radio" name="pyt32" value="d">d) Ostrzeżenie o substancji łatwopalnej.</label>
+</fieldset>
+
+<fieldset class="pyt33" data-correct="b" hidden>
+<legend>Kiedy pracownik powinien odbyć wymagane szkolenie BHP?</legend>
+<label><input type="radio" name="pyt33" value="a">a) Dopiero po kilku miesiącach pracy.</label>
+<label><input type="radio" name="pyt33" value="b">b) Przed dopuszczeniem do pracy, a następnie zgodnie z wymaganiami dla danego stanowiska.</label>
+<label><input type="radio" name="pyt33" value="c">c) Wyłącznie po wypadku.</label>
+<label><input type="radio" name="pyt33" value="d">d) Tylko wtedy, gdy sam o nie poprosi.</label>
+</fieldset>
+
+<fieldset class="pyt34" data-correct="c" hidden>
+<legend>Jak należy postępować z zaleceniami lekarza medycyny pracy?</legend>
+<label><input type="radio" name="pyt34" value="a">a) Można je pominąć, jeśli praca jest pilna.</label>
+<label><input type="radio" name="pyt34" value="b">b) Stosować je tylko w dniu badania.</label>
+<label><input type="radio" name="pyt34" value="c">c) Przestrzegać zaleceń dotyczących zdolności do pracy i ograniczeń zdrowotnych.</label>
+<label><input type="radio" name="pyt34" value="d">d) Zastąpić je opinią współpracownika.</label>
+</fieldset>
+
+<fieldset class="pyt35" data-correct="d" hidden>
+<legend>Co zrobić przed czyszczeniem urządzenia elektrycznego?</legend>
+<label><input type="radio" name="pyt35" value="a">a) Czyścić je mokrą szmatką podczas pracy.</label>
+<label><input type="radio" name="pyt35" value="b">b) Poprosić drugą osobę o przytrzymanie przewodu.</label>
+<label><input type="radio" name="pyt35" value="c">c) Rozpocząć czyszczenie bez sprawdzania instrukcji.</label>
+<label><input type="radio" name="pyt35" value="d">d) Wyłączyć i bezpiecznie odłączyć urządzenie zgodnie z instrukcją.</label>
+</fieldset>
+
+<fieldset class="pyt36" data-correct="a" hidden>
+<legend>Kiedy szczególnie należy umyć ręce podczas pracy?</legend>
+<label><input type="radio" name="pyt36" value="a">a) Po kontakcie z zabrudzeniami lub substancjami chemicznymi oraz przed jedzeniem.</label>
+<label><input type="radio" name="pyt36" value="b">b) Tylko na początku tygodnia.</label>
+<label><input type="radio" name="pyt36" value="c">c) Wyłącznie wtedy, gdy ktoś zwróci na to uwagę.</label>
+<label><input type="radio" name="pyt36" value="d">d) Ręce można wytrzeć o odzież roboczą zamiast je umyć.</label>
+</fieldset>
+
+<div class="nawigacja-pytan">
+    <button type="button" id="poprzednie-pytanie" disabled>Poprzednie</button>
+    <button type="button" id="nastepne-pytanie">Następne</button>
+    <button type="button" id="sprawdz-odpowiedzi" hidden>Sprawdź odpowiedzi</button>
+</div>
+</main>
+<dialog id="wynik" class="wynik">
+    <p>
+
+    Twój Wynik: 
+      <span id="wynik-procent">0%</span>
+    (<span id="wynik-tekst">0/6</span>)
+    </p>
+    <p id="komunikat-wyniku"></p>
+      <button id="zamknij-wynik">Zamknij</button>
+</dialog>
+<footer>
+
+
+    <h6> Autor: Adrian Buchowiecki, 2026 Test wiedzy o BHP. Wszystkie prawa zastrzeżone.</h6>
+</footer>
+</div>
+</body>
+</html>
