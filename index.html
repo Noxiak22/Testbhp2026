@@ -314,13 +314,21 @@
     </p>
     <p id="komunikat-wyniku"></p>
     <p>Możesz wysłać wynik testu na adres e-mail autora.</p>
-    <form id="wyslij-wynik" action="https://formsubmit.co/vis5@intmail.pl" method="POST">
-        <input type="hidden" name="_subject" value="Wynik testu BHP">
-        <input id="wynik-email-punkty" type="hidden" name="wynik">
-        <input id="wynik-email-procent" type="hidden" name="procent">
-        <input id="wynik-email-status" type="hidden" name="status">
-        <button type="submit">Wyślij wynik na e-mail autora</button>
-    </form>
+  <form id="wyslij-wynik" action="https://formsubmit.co/vis5@intmail.pl" method="POST">
+    <input type="hidden" name="_subject" value="Wynik testu BHP">
+
+    <label for="uczestnik-imie">Imię i nazwisko:</label>
+    <input id="uczestnik-imie" type="text" name="name" autocomplete="name" required>
+
+    <label for="uczestnik-email">Twój adres e-mail:</label>
+    <input id="uczestnik-email" type="email" name="email" autocomplete="email" required>
+
+    <input id="wynik-email-punkty" type="hidden" name="wynik">
+    <input id="wynik-email-procent" type="hidden" name="procent">
+    <input id="wynik-email-status" type="hidden" name="status">
+
+    <button type="submit">Wyślij wynik na e-mail autora</button>
+</form>
     <button id="zamknij-wynik">Zamknij</button>
 </dialog>
 <footer>
