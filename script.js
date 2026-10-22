@@ -67,13 +67,20 @@ function sprawdzOdpowiedzi() {
         }
     });
 
+    const procent = Math.round((punkty / 6) * 100);
+    const status = punkty >= 5
+        ? "Zaliczony"
+        : "Niezaliczony";
+
     document.getElementById("wynik-tekst").textContent = punkty + "/6";
-    document.getElementById("wynik-procent").textContent =
-        Math.round((punkty / 6) * 100) + "%";
+    document.getElementById("wynik-procent").textContent = procent + "%";
     document.getElementById("komunikat-wyniku").textContent =
         punkty >= 5
             ? "Gratulacje, zaliczyłeś test!"
             : "Niestety, test niezaliczony. Spróbuj ponownie.";
+    document.getElementById("wynik-email-punkty").value = punkty + "/6";
+    document.getElementById("wynik-email-procent").value = procent + "%";
+    document.getElementById("wynik-email-status").value = status;
 
     oknoWyniku.showModal();
 }

@@ -26,6 +26,19 @@ fieldset label {
 fieldset[hidden] {
     display: none;
 }
+
+#wyslij-wynik {
+    display: grid;
+    gap: 10px;
+    margin: 16px 0;
+}
+
+#wyslij-wynik button,
+#zamknij-wynik {
+    padding: 10px 16px;
+    font: inherit;
+    cursor: pointer;
+}
 ul
 {
     display: flex;
